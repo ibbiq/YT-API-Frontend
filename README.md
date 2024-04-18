@@ -1,25 +1,14 @@
-# ReduxSimpleStarter
+**YouTube Video Player**
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+Project Overview
 
-### Getting Started
+This project is a simple web application built with React. It uses the YouTube API to enable users to search for and play YouTube videos directly from a custom interface. This application demonstrates basic API integration with React and provides an experience for interacting with YouTube content.
 
-There are two methods for getting started with this repo.
+Features:
+Video Search: Users can search for YouTube videos using keywords.
+Video Playback: Users can play videos directly within the app interface.
+Responsive Design: The app is fully responsive to show related videos as well as subsequent searches.
 
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
+Technologies Used
+React: Frontend framework for building the user interface.
+YouTube API: Used to fetch video data based on user searches.
